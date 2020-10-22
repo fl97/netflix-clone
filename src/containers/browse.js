@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react'
 
 import { FirebaseContext } from '../context/firebase'
 import { SelectProfileContainer } from './profiles'
+import { Loading } from '../components'
 
 export function BrowseContainer({slides}) {
 
