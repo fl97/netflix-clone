@@ -4,13 +4,13 @@ export const LockBody = createGlobalStyle`
   body {
     overflow: hidden;
   }
-`;
+`
 
 export const ReleaseBody = createGlobalStyle`
   body {
     overflow: visible;
   }
-`;
+`
 
 export const Spinner = styled.div`
   position: fixed;
@@ -67,7 +67,7 @@ export const Spinner = styled.div`
       transform: rotate(360deg);
     }
   }
-`;
+`
 
 export const Picture = styled.img`
   width: 50px;
@@ -77,4 +77,4 @@ export const Picture = styled.img`
   left: 50%;
   margin-top: -100px;
   margin-left: -22px;
-`;
+`
